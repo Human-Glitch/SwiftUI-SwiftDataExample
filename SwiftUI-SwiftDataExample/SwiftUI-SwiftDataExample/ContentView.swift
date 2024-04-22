@@ -6,8 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+	@Environment(\.modelContext) var context
+	@State private var isShowingItemSheet = false
+	
+	@Query(filter: #Predicate<Expense> { $0.value > 1000 }, sort: \Expense.date)
+	var expenses: [Expense]
+	
+	@State private var expenseToEdit: Expense?
     var body: some View {
         VStack {
             Image(systemName: "globe")
