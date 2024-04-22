@@ -11,6 +11,7 @@
 		E7E04AE42BD5D7140060CA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E04AE32BD5D7140060CA40 /* ContentView.swift */; };
 		E7E04AE62BD5D7140060CA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E04AE52BD5D7140060CA40 /* Assets.xcassets */; };
 		E7E04AE92BD5D7140060CA40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E04AE82BD5D7140060CA40 /* Preview Assets.xcassets */; };
+		E7E04AF02BD5D7870060CA40 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E04AEF2BD5D7870060CA40 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E7E04AE32BD5D7140060CA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7E04AE52BD5D7140060CA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7E04AE82BD5D7140060CA40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7E04AEF2BD5D7870060CA40 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E7E04AE12BD5D7140060CA40 /* SwiftUI_SwiftDataExampleApp.swift */,
 				E7E04AE32BD5D7140060CA40 /* ContentView.swift */,
+				E7E04AEF2BD5D7870060CA40 /* Expense.swift */,
 				E7E04AE52BD5D7140060CA40 /* Assets.xcassets */,
 				E7E04AE72BD5D7140060CA40 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E04AF02BD5D7870060CA40 /* Expense.swift in Sources */,
 				E7E04AE42BD5D7140060CA40 /* ContentView.swift in Sources */,
 				E7E04AE22BD5D7140060CA40 /* SwiftUI_SwiftDataExampleApp.swift in Sources */,
 			);
@@ -278,6 +282,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +312,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
